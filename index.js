@@ -82,3 +82,9 @@ async function main() {
     console.error('Error:' , error.message);
   }
 }
+// I have added an asynchronous function that serves as a higher-level interface to coordinate user interaction in my application (High-level interfaces are designed to allow a programmer to write code in a shorter amount of time and to be less involved with the details of the software module that is performing the required service.)
+async function promptUser() {
+  await main();
+}
+// This section of code will allow me to call the promptUser function and therefore it will initiate the execution of the promptUser function.
+promptUser();
