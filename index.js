@@ -44,3 +44,12 @@ const shapeClass = {
     square: Square,
 };
 
+// In this section I've added an async function to get user input this is the part of my application that will interact with the user to collect input data. It will then use the inquirer library
+async function getUserInput() {
+    return inquirer.prompt([
+        { type: 'input', name: 'text', message: 'Enter up to three characters for the text:', validate: (text) => text.length <= 3 },
+        { type: 'input', name: 'textColor', message: 'Enter the text color (keyword or hex):', validate: Boolean },
+        { type: 'list', name: 'shape', message: 'Choose a shape:', choices: ['circle', 'triangle', 'square'] },
+        { type: 'input', name: 'shapeColor', message: 'Enter the shape color (keyword or hex):', validate: Boolean },
+    ]);
+}
