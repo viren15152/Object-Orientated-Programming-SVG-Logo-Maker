@@ -53,3 +53,32 @@ async function getUserInput() {
         { type: 'input', name: 'shapeColor', message: 'Enter the shape color (keyword or hex):', validate: Boolean },
     ]);
 }
+// I have added this function so that it will save content to a file synchronously 
+function saveToFile(filename, content) {
+    fs.writeFileSync(filename, content);
+}
+
+//This section of my code is used for creating and saving coloured shapes as SVG images based on the users input.
+
+async function main() {
+  try {
+    const { shape, shapeColor } = await getUserInput();
+
+    const ShapeClass = shapeClasses[shape];
+    if (!ShapeClass) {
+      console.error('Invaild shape choice');
+      return;
+    }
+
+    const shapeInstance = new ShapeClass();
+    shapeInstance.setColor(shapeColor);
+
+    const svgContent = `<svg width="300" height="200">${shapeInstance.render()}</svg>`;
+
+    saveToFile('logo.svg' , svgContent);
+
+    console.log('Generated logo.svg');
+  }  catch (error) {
+    console.error('Error:' , error.message);
+  }
+}
