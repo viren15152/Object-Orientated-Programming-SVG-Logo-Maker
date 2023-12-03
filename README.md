@@ -18,7 +18,7 @@
 
 ## Technologies Used
 
-Node.js, Inquirer 8.2.4 & JavaScript 
+Node.js, Inquirer 8.2.4, Jest 29.7.0, VS Code & JavaScript 
 
 ## Installation
 
