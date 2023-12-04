@@ -20,6 +20,8 @@ This application enables users to enter inputs into an inquirer prompt in order 
 
 ![Screenshot of Generated Logo](<Screenshot 2023-12-04 at 22.10.32.png>)
 
+![Screenshot of Testing](<Screenshot 2023-12-04 at 23.22.30.png>)
+
 ## Technologies Used
 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
