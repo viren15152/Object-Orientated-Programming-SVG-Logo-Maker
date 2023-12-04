@@ -18,6 +18,7 @@ This application enables users to enter inputs into an inquirer prompt in order 
 ## Visuals
 ![Screenshot of application functioning within VS code](<Screenshot 2023-12-03 at 23.19.23.png>)
 
+![Screenshot of Generated Logo](<Screenshot 2023-12-04 at 22.10.32.png>)
 
 ## Technologies Used
 
