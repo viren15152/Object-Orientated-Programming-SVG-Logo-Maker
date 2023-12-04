@@ -16,7 +16,7 @@
 This application enables users to enter inputs into an inquirer prompt in order to generate a logo within a "logo.svg" file. It will create the image based on the users input and desired choices for their logo. 
 
 ## Visuals
-![Screenshot of application functioning within VS code](<Screenshot 2023-12-03 at 23.19.23.png>)
+![Screenshot of application functioning](<Screenshot 2023-12-04 at 23.03.51.png>)
 
 ![Screenshot of Generated Logo](<Screenshot 2023-12-04 at 22.10.32.png>)
 
@@ -25,6 +25,7 @@ This application enables users to enter inputs into an inquirer prompt in order 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
 
 ## Installation
 
