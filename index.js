@@ -22,7 +22,7 @@ class Shape {
 
     render() {
         // This section returns a text element with the specified text and text color.
-        return `<text x="150" y="100" fill="${this.textColor}" font-size="20" text-anchor="middle">${this.text}</text>`;
+        return `<text x="150" y="100" fill="${this.textColor}" font-size="50" text-anchor="middle">${this.text}</text>`;
     }
 }
 
@@ -31,7 +31,7 @@ class Circle extends Shape {
     render() {
         // This section returns a circle with the color input and positions the text within the circle.
         return `<circle cx="150" cy="100" r="80" fill="${this.color}" />
-                <text x="150" y="100" fill="${this.textColor}" font-size="20" text-anchor="middle">${this.text}</text>`;
+                <text x="150" y="100" fill="${this.textColor}" font-size="50" text-anchor="middle">${this.text}</text>`;
     }
 }
 
@@ -39,7 +39,7 @@ class Triangle extends Shape {
     render() {
         // This section will return a polygon with the color input and positions the text within the triangle.
         return `<polygon points="150, 18 244, 182 56, 182" fill="${this.color}" />
-                <text x="150" y="120" fill="${this.textColor}" font-size="20" text-anchor="middle">${this.text}</text>`;
+                <text x="150" y="120" fill="${this.textColor}" font-size="50" text-anchor="middle">${this.text}</text>`;
     }
 }
 
@@ -47,7 +47,7 @@ class Square extends Shape {
     render() {
         // This section returns a rectangle with the color input and positions the text within the rectangle.
         return `<rect x="56" y="56" width="188" height="188" fill="${this.color}" />
-                <text x="150" y="150" fill="${this.textColor}" font-size="20" text-anchor="middle">${this.text}</text>`;
+                <text x="150" y="150" fill="${this.textColor}" font-size="50" text-anchor="middle">${this.text}</text>`;
     }
 }
 

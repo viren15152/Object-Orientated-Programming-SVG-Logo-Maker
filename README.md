@@ -29,9 +29,9 @@ Clone my Github repository and run the application within your CLI.
 
 ## Usage
 
-1. The user needs to opened the cloned repository within VS code
-2. Then they should proceed open their intergrated terminal or CLI
-3. Enter node index.js within the command line
+1. The user needs to open the cloned repository within VS code.
+2. Then they should proceed open their intergrated terminal or CLI.
+3. Enter node index.js within the command line.
 4. The user will then be presented with a series of questions in which they can answer with their desired response.
 5. Once the user has answered all of the questions an SVG file named "logo.svg" will be created. 
 
