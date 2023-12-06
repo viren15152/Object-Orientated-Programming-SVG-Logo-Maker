@@ -22,6 +22,8 @@ This application enables users to enter inputs into an inquirer prompt in order 
 
 ![Screenshot of Testing](<Screenshot 2023-12-04 at 23.22.30.png>)
 
+Walkthrough Video: https://drive.google.com/file/d/1P34TPMfR3ei4cyN-MbqK01m_5Pdrre5n/view
+
 ## Technologies Used
 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
